@@ -1,0 +1,24 @@
+{
+  "name": "contact_keeper-api",
+  "version": "1.0.0",
+  "description": "API for contact keeper project from React front to back 2019 udemy course by Brad Traversy ",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "Francyel Zelling",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.2.4",
+    "express": "^4.17.1",
+    "express-validator": "^6.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.7"
+  },
+  "devDependencies": {
+    "concurrently": "^5.0.0",
+    "nodemon": "^1.19.4"
+  }
+}
